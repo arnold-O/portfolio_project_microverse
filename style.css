@@ -1,0 +1,39 @@
+/*start:  resets */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/*  end: resets */
+
+/* start: variables */
+:root {
+  --color-tint: #fdf2e9;
+  --btn-color: #e67e22;
+  --primary-white: #fff;
+}
+
+/*  end: variables */
+
+/* reuseable Component */
+.container {
+  padding: 0 2.4rem;
+}
+
+.list-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #e67e22;
+}
