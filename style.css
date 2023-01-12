@@ -33,7 +33,37 @@ body {
 }
 
 .list-icon {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.8rem;
+  height: 2.8rem;
   color: #e67e22;
 }
+
+.grid {
+    display: grid;
+    gap: 9.6rem;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  /* .grid:last-child{
+    margin-bottom: 0;
+  } */
+  
+  .grid:not(last-child) {
+    margin-bottom: 9.6rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .grid--5-cols{
+    
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .grid-center-vertically {
+    align-items: center;
+  }
