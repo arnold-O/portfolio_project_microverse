@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -31,6 +32,9 @@ body {
 .container {
   padding: 0 2.4rem;
 }
+.container-project{
+
+}
 
 .list-icon {
   width: 2.8rem;
@@ -39,31 +43,141 @@ body {
 }
 
 .grid {
-    display: grid;
-    gap: 9.6rem;
-    column-gap: 6.4rem;
-    row-gap: 9.6rem;
-  }
-  /* .grid:last-child{
-    margin-bottom: 0;
-  } */
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-center-vertically {
+  align-items: center;
+}
+
+/* nav-section  */
+.nav-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-hamburger {
+  justify-self: flex-end;
+  margin-right: 2.5rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+}
+
+/* section Header Description */
+.header-description {
+  padding: 0 1.6rem;
+}
+
+.header-description-name {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.2rem;
+  line-height: 100%;
+  /* or 50px */
+
+  color: #1a2236;
+}
+.header-description-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.01em;
+
+  color: #1a2236;
+}
+
+.btn-header {
+  width: 100%;
+  background: #1a2236;
+  padding: 2.5rem 0 ;
+}
+.btn-header a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ffffff;
   
-  .grid:not(last-child) {
-    margin-bottom: 9.6rem;
-  }
-  .grid--2-cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .grid--3-cols {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .grid--4-cols {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .grid--5-cols{
+}
+.btn-header a:hover{
+    text-decoration: underline;
+}
+
+
+.box-image{
+    width: auto;
+    height: 16rem;
+    background-image: 
+      url("./images/image_geometry_2.png");
+   
+}
+.project-section{
+
+
+}
+.project-section-title{
+
+}
+.container-project{
+    padding: 2rem;
+    background: #1A2236;
+border: 0.333333px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(0.5px);
+
+}
+
+.project-name{
+    font-family: 'Poppins';
     
-    grid-template-columns: repeat(5, 1fr);
-  }
-  .grid-center-vertically {
+   
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    /* identical to box height, or 16px */
+    
+    
+    color: #FFFFFF;
+
+}
+.project-features{
+    display: flex;
     align-items: center;
-  }
+    gap: 2rem;
+}
+.btn-feature{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 80%;
+/* or 8px */
+
+
+color: #1A2236;
+background: #98DEDE;
+
+    padding: .6rem 1rem;
+}
