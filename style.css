@@ -32,8 +32,7 @@ body {
 .container {
   padding: 0 2.4rem;
 }
-.container-project{
-
+.container-project {
 }
 
 .list-icon {
@@ -107,7 +106,7 @@ body {
 .btn-header {
   width: 100%;
   background: #1a2236;
-  padding: 2.5rem 0 ;
+  padding: 2.5rem 0;
 }
 .btn-header a {
   display: block;
@@ -120,64 +119,72 @@ body {
   text-align: center;
 
   color: #ffffff;
-  
 }
-.btn-header a:hover{
-    text-decoration: underline;
-}
-
-
-.box-image{
-    width: auto;
-    height: 16rem;
-    background-image: 
-      url("./images/image_geometry_2.png");
-   
-}
-.project-section{
-
-
-}
-.project-section-title{
-
-}
-.container-project{
-    padding: 2rem;
-    background: #1A2236;
-border: 0.333333px solid rgba(255, 255, 255, 0.1);
-backdrop-filter: blur(0.5px);
-
+.btn-header a:hover {
+  text-decoration: underline;
 }
 
-.project-name{
-    font-family: 'Poppins';
-    
-   
-    font-weight: 400;
-    font-size: 2.5rem;
-    line-height: 1.5;
-    /* identical to box height, or 16px */
-    
-    
-    color: #FFFFFF;
-
+.box-image {
+  width: auto;
+  height: 16rem;
+  background-image: url("./images/image_geometry_2.png");
 }
-.project-features{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.project-section {
 }
-.btn-feature{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 1.2rem;
-line-height: 80%;
-/* or 8px */
+.project-section-title {
+}
+.project-description-container{
+    flex-direction: column;
+}
+.project-description {
+  padding: 2rem;
+  background: #1a2236;
+  /* border: 0.333333px solid rgba(255, 255, 255, 0.1); */
+  backdrop-filter: blur(0.5px);
+}
 
+.project-name {
+  font-family: "Poppins";
 
-color: #1A2236;
-background: #98DEDE;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  /* identical to box height, or 16px */
 
-    padding: .6rem 1rem;
+  color: #ffffff;
+}
+.project-features {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.btn-feature {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 80%;
+  /* or 8px */
+
+  color: #1a2236;
+  background: #98dede;
+
+  padding: 0.6rem 1rem;
+}
+.project-img img {
+  width: 100%;
+}
+.project-description a {
+  display: inline-block;
+  color: #fff;
+  padding: 1.8rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  /* identical to box height */
+
+  text-align: center;
+  border: 1px solid #fff;
 }
