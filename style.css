@@ -188,3 +188,107 @@ body {
   text-align: center;
   border: 1px solid #fff;
 }
+
+
+/* ******************* about section ******************** */
+
+.about-section{
+    padding: 1.6rem;
+
+}
+.about-section-title{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 100%;
+/* identical to box height, or 50px */
+color: #1A2236;
+}
+
+.about-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+
+color: #1A2236;
+
+}
+.about-section-cv{
+    display: block;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+background-color: #000;
+
+}
+.about-section-cv a{
+    color: #fff;
+}
+
+.framwork-card{
+    padding: 5rem;
+
+}
+.card-one{
+    background: #1C528A;
+}
+.card-two{
+    background: #E2505C;
+    
+}
+.card-three{
+  background: #FEBF52;
+    
+}
+
+.framework-name{
+   
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 2rem;
+line-height: 1.5;
+letter-spacing: 1.2;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    
+}
+.list-items{
+    color: #fff;
+}
+.list-items li{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 1.7;
+letter-spacing: -0.0525em;
+list-style-position: inside;
+padding: 0;
+
+
+}
+
+
+/* ****************get started section *****************/
+/* ****************get started section *****************/
+
+
+.get-started-info{
+    padding: 1.8rem;
+}
+
+/***************** get started section *****************/
+/* ****************get started section *****************/
