@@ -339,8 +339,8 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
-.last{
-    margin-bottom: 2.5rem;
+.last {
+  margin-bottom: 2.5rem;
 }
 
 .framework-icon {
@@ -350,14 +350,13 @@ body {
   border-radius: 50%;
 }
 
-.main{
-    position: relative;
+.main {
+  position: relative;
 }
-.framework-footer-img{
-   
-    position: absolute;
-   bottom:0;
-   right: 0;
+.framework-footer-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* ****************get started section *****************/
