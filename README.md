@@ -23,9 +23,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name=""></a>
+# 📖 [portfolio_project_microverse ] <a name=""></a>
 
-> This project is aimed at setting up a Biolerplate for CSS and HTML
+> This project Is Portfolio project of Arnold Oghiator
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -53,9 +53,12 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Github Workflow]**
-- **[Linters]**
-- **[Readme]**
+- Navbar Section
+- Headline Section
+- Portfolio Section
+- About Section
+- Contact Section
+- Footer Section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +89,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-project
-  - git clone https://github.com/arnold-O/Hello_world_microverse.git
+  - git clone https://github.com/arnold-O/portfolio_project_microverse.git
 
 
 ### Install
@@ -100,7 +103,7 @@ Install this project with:
 
 To run the project, execute the following command:
 
-- run this project using live server 
+- run this project using live server.
 
 
 ### Deployment
@@ -131,8 +134,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> custom made navbar
->Resuable colunms (flexbox and grid technologies)
+> Adding Desktop view.
+>Adding Responsiveness in all screen sizes
 
 
 
