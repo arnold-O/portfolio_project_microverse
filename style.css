@@ -339,12 +339,25 @@ body {
   align-items: center;
   gap: 0.5rem;
 }
+.last{
+    margin-bottom: 2.5rem;
+}
 
 .framework-icon {
   background-color: #fff;
   height: 0.6rem;
   width: 0.6rem;
   border-radius: 50%;
+}
+
+.main{
+    position: relative;
+}
+.framework-footer-img{
+   
+    position: absolute;
+   bottom:0;
+   right: 0;
 }
 
 /* ****************get started section *****************/
