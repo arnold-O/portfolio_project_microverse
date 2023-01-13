@@ -27,7 +27,6 @@
 
 > This project Is Portfolio project of Arnold Oghiator
 
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -48,11 +47,9 @@
   </ul> 
 </details>
 
-
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
-
 - Navbar Section
 - Headline Section
 - Portfolio Section
@@ -84,7 +81,6 @@ Clone this repository to your desired folder:
 
   - cd my-project
   - git clone https://github.com/arnold-O/portfolio_project_microverse.git
-
 
 ### Install
 
@@ -129,9 +125,6 @@ You can deploy this project using:
 
 > Adding Desktop view.
 >Adding Responsiveness in all screen sizes
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
