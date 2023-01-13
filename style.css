@@ -207,6 +207,21 @@ body {
   color: #fff;
 }
 
+.view-project a {
+  color: #fff;
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+
+.btn-header:hover a {
+  color: #1a2236;
+  font-weight: bold;
+}
+
 .box-image {
   width: auto;
   height: 16rem;
@@ -268,16 +283,6 @@ body {
   text-align: center;
   border: 1px solid #fff;
   padding: 1.2rem;
-}
-
-.view-project a {
-  color: #fff;
-  font-family: var(--font-family-primary);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 3rem;
-  text-decoration: none;
 }
 
 .btn-header a:hover {
