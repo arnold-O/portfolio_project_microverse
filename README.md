@@ -78,12 +78,6 @@
 
 > To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-- npm init -y
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -94,8 +88,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
+Install this project with by :
 - cd my-project
 - npm install
 
