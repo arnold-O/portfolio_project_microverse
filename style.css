@@ -72,6 +72,9 @@ body {
 .padding-md {
   padding: 2rem;
 }
+.margin-xl-t {
+  margin-top: 6.4rem;
+}
 .margin-xsm-t {
   margin-top: 0.8rem;
 }
@@ -120,23 +123,20 @@ body {
   border: none;
 }
 .btn-header {
-    width: 100%;
-    background: #1a2236;
-    /* padding: 2.5rem 0; */
-  }
-  .btn-header:hover{
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-background: #E5E5E5;
-
-text-align: center;
-
-color: #1A2236;
-
+  width: 100%;
+  background: #1a2236;
+  transition: all 0.4s;
+}
+.btn-header:hover,
+.btn-header:visited {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 27px;
+  background: #e5e5e5;
+  text-align: center;
+  color: #1a2236;
 }
 
 /* section Header Description */
@@ -149,8 +149,6 @@ color: #1A2236;
   font-weight: 500;
   font-size: 5.2rem;
   line-height: 100%;
-  /* or 50px */
-
   color: #1a2236;
 }
 .header-description-text {
@@ -160,10 +158,8 @@ color: #1A2236;
   font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: -0.01em;
-
   color: #1a2236;
 }
-
 
 .btn-header a {
   display: block;
@@ -175,14 +171,11 @@ color: #1A2236;
   line-height: 24px;
   text-align: center;
   padding: 1rem 0;
-
   color: #ffffff;
 }
 .btn-header a:hover {
-  /* text-decoration: underline; */
   color: #1a2236;
 }
-
 
 .box-image {
   width: auto;
@@ -439,9 +432,9 @@ color: #1A2236;
   font-size: 1.5rem;
   line-height: 2;
   color: #7d7c84;
-border: none;
-outline: none;
-border: 1px solid #DFDFE0;
+  border: none;
+  outline: none;
+  border: 1px solid #dfdfe0;
 }
 
 /* color: #aaa; */
@@ -449,10 +442,9 @@ border: 1px solid #DFDFE0;
   color: #aaa;
 }
 .form-control-area textarea:focus {
-    background: #FFFFFF;
-border: 1px solid #DFDFE0;
-border-radius: 4px;
-
+  background: #ffffff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
 }
 
 /***************** get started section *****************/
@@ -461,13 +453,43 @@ border-radius: 4px;
 .icon {
 }
 .footer-section {
-  padding: 1.6rem;
+    padding: 3.2rem 1.6rem;
   background: #1a2236;
 
   /* remove after */
   margin-bottom: 50rem;
 }
 .footer-container {
+    
+}
+.footer-container aside{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.resume-link {
+  font-family: var(primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height:2.4rem;
+  color: #92dcdc;
+}
+.resume-link-icon{
+    color: #92dcdc;
+}
+.list-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-footer{
+    list-style: none;
+}
+.footer-icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: #fff;
 }
 
 /* footer section */
