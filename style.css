@@ -136,7 +136,7 @@ body {
   transition: all 0.4s;
 }
 
-.btn-header:hover{
+.btn-header:hover {
   font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 500;
@@ -146,19 +146,20 @@ body {
   text-align: center;
   color: #1a2236;
   border: 1px solid #1a2236;
-  }
-  
-  .btn-header:visited {
+}
+
+.btn-header:visited {
   font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;
-    line-height: 27px;
+  line-height: 27px;
   background: #e5e5e5;
   text-align: center;
   color: #1a2236;
   border: 2px solid #1a2236;
-  }
+}
+
 /* section Header Description */
 .header-description {
   padding: 0 1.6rem;
