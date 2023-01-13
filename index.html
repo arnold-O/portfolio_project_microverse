@@ -1,197 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <main>
-      <section class="nav-section grid grid--2-cols">
-        <div class="nav-section-img">
-          <img src="./images/image_geometry_1.png" alt="" />
-        </div>
-        <span class="nav-hamburger">
-          <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
-        </span>
-      </section>
+        <section class="nav-section grid grid--2-cols">
+            <div class="nav-section-img">
+                <img src="./images/image_geometry_1.png" alt="" />
+            </div>
+            <span class="nav-hamburger">
+                <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+            </span>
+        </section>
 
-      <section class="header-description">
-        <p class="header-description-name">Arnold Oghiator</p>
-        <p class="header-description-text">
-          Hello! I am a software developer! I can help you build a product,
-          feature or website. Taka a look of my works. If you like what you see
-          and have a project you need coded, don’t hesitate and contact me.
-        </p>
-        <button class="btn btn-header">
-          <a href="">Start collaboration</a>
-        </button>
-      </section>
+        <section class="header-description margin-md">
+            <p class="header-description-name">Arnold Oshos Oghiator </p>
+            <p class="header-description-text margin-sm">
+                Hello! I am a software developer! I can help you build a product,
+                feature or website. Taka a look of my works. If you like what you see
+                and have a project you need coded, don’t hesitate and contact me.
+            </p>
+            <button class="btn btn-header margin-xmd">
+                <a href="">Start collaboration</a>
+            </button>
+        </section>
     </main>
-    <section class="">
-      <div class="box-image"></div>
+    <section class="margin-md-sm">
+        <div class="box-image"></div>
     </section>
-    <section class="project-section">
-      <p class="project-section-title">Projects</p>
+    <section class="project-section  margin-md-sm">
+        <p class="project-section-title margin-md-sm-b padding-sm">Projects</p>
 
-      <div class="project-description-container grid">
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/Rectangle 21.png" alt="" />
-          </div>
-          <div class="project-description">
-            <div class="project-description">
-              <p class="project-name">Project name goes here</p>
-              <div class="project-features">
-                <button class="btn btn-feature">HTML/CSS</button>
-                <button class="btn btn-feature">Ruby on Rails</button>
-                <button class="btn btn-feature">JavaScript</button>
-              </div>
-              <a href="">See this Project &rarr;</a>
+        <div class="project-description-container grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/Rectangle 21.png" alt="" />
+                </div>
+                <div class="project-description">
+                    <div class="project-description">
+                        <p class="project-name ">Project name goes here</p>
+                        <div class="project-features margin-xsm margin-sm-b ">
+                            <button class="btn btn-feature">HTML/CSS</button>
+                            <button class="btn btn-feature">Ruby on Rails</button>
+                            <button class="btn btn-feature">JavaScript</button>
+                        </div>
+                        <div class="view-project">
+                            <a href="">See this Project</a> <span><ion-icon class="icon"
+                                    name="arrow-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/Rectangle 22.png" alt="" />
-          </div>
-          <div class="project-description">
-            <div class="project-description">
-              <p class="project-name">Project name goes here</p>
-              <div class="project-features">
-                <button class="btn btn-feature">HTML/CSS</button>
-                <button class="btn btn-feature">Ruby on Rails</button>
-                <button class="btn btn-feature">JavaScript</button>
-              </div>
-              <a href="">See this Project &rarr;</a>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/Rectangle 22.png" alt="" />
+                </div>
+                <div class="project-description">
+                    <div class="project-description">
+                        <p class="project-name ">Project name goes here</p>
+                        <div class="project-features margin-xsm margin-sm-b ">
+                            <button class="btn btn-feature">HTML/CSS</button>
+                            <button class="btn btn-feature">Ruby on Rails</button>
+                            <button class="btn btn-feature">JavaScript</button>
+                        </div>
+                        <div class="view-project">
+                            <a href="">See this Project</a> <span><ion-icon class="icon"
+                                    name="arrow-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/Rectangle 23.png" alt="" />
-          </div>
-          <div class="project-description">
-            <div class="project-description">
-              <p class="project-name">Project name goes here</p>
-              <div class="project-features">
-                <button class="btn btn-feature">HTML/CSS</button>
-                <button class="btn btn-feature">Ruby on Rails</button>
-                <button class="btn btn-feature">JavaScript</button>
-              </div>
-              <a href="">See this Project &rarr;</a>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/Rectangle 23.png" alt="" />
+                </div>
+                <div class="project-description">
+                    <div class="project-description">
+                        <p class="project-name ">Project name goes here</p>
+                        <div class="project-features margin-xsm margin-sm-b ">
+                            <button class="btn btn-feature">HTML/CSS</button>
+                            <button class="btn btn-feature">Ruby on Rails</button>
+                            <button class="btn btn-feature">JavaScript</button>
+                        </div>
+                        <div class="view-project">
+                            <a href="">See this Project</a> <span><ion-icon class="icon"
+                                    name="arrow-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/Rectangle 24.png" alt="" />
-          </div>
-          <div class="project-description">
-            <div class="project-description">
-              <p class="project-name">Project name goes here</p>
-              <div class="project-features">
-                <button class="btn btn-feature">HTML/CSS</button>
-                <button class="btn btn-feature">Ruby on Rails</button>
-                <button class="btn btn-feature">JavaScript</button>
-              </div>
-              <a href="">See this Project &rarr;</a>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/Rectangle 24.png" alt="" />
+                </div>
+                <div class="project-description">
+                    <div class="project-description">
+                        <p class="project-name ">Project name goes here</p>
+                        <div class="project-features margin-xsm margin-sm-b ">
+                            <button class="btn btn-feature">HTML/CSS</button>
+                            <button class="btn btn-feature">Ruby on Rails</button>
+                            <button class="btn btn-feature">JavaScript</button>
+                        </div>
+                        <div class="view-project">
+                            <a href="">See this Project</a> <span><ion-icon class="icon"
+                                    name="arrow-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="project-card">
-          <div class="project-img">
-            <img src="./images/Rectangle 25.png" alt="" />
-          </div>
-          <div class="project-description">
-            <div class="project-description">
-              <p class="project-name">Project name goes here</p>
-              <div class="project-features">
-                <button class="btn btn-feature">HTML/CSS</button>
-                <button class="btn btn-feature">Ruby on Rails</button>
-                <button class="btn btn-feature">JavaScript</button>
-              </div>
-              <a href="">See this Project &rarr;</a>
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="./images/Rectangle 25.png" alt="" />
+                </div>
+                <div class="project-description">
+                    <div class="project-description">
+                        <p class="project-name ">Project name goes here</p>
+                        <div class="project-features margin-xsm margin-sm-b ">
+                            <button class="btn btn-feature">HTML/CSS</button>
+                            <button class="btn btn-feature">Ruby on Rails</button>
+                            <button class="btn btn-feature">JavaScript</button>
+                        </div>
+                        <div class="view-project">
+                            <a href="">See this Project</a> <span><ion-icon class="icon"
+                                    name="arrow-forward-outline"></ion-icon></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
-    <section class="about-section">
-      <p class="about-section-title">About</p>
-      <p class="about-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
-        eiusmod
-      </p>
-      <div class="about-section-cv">
-        <a href="">Get my CV</a>
-        <span><i class="fa fa-calendar-arrow-down"></i></span>
-      </div>
-      <div class="about-framework">
-        <div class="framwork-card card-one">
-          <p class="framework-name">Languages</p>
-          <ul class="list-items">
-            <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <span>
-            <img src="./images/#.png" alt="">
-          </span>
+    <section class="about-section margin-lg">
+        <p class="about-section-title margin-sm-b">About</p>
+        <p class="about-text margin-md-sm-b ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
+            eiusmod
+        </p>
+        <div class="about-section-cv">
+            <a href="">Get my CV</a>
+            <ion-icon class="cv-icon" name="download-outline"></ion-icon>
         </div>
-        <div class="framwork-card card-two">
-          <p class="framework-name">Frameworks</p>
-          <ul class="list-items">
-            <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <span>
-            <img src="./images/#.png" alt="">
-          </span>
+        <div class="about-framework margin-xmd-t">
+            <div class="framwork-card card-one">
+                <p class="framework-name">Languages</p>
+                <ul class="list-items margin-sm-t ">
+                    <li class="list-item">
+                        <div class="framework-icon"></div></span> JavaScript (ES5/ES6)
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>Ruby</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>HTML</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>CSS</span>
+                    </li>
+                </ul>
+                <span>
+                    <img src="./images/#.png" alt="" />
+                </span>
+            </div>
+            <div class="framwork-card card-two">
+                <p class="framework-name">Frameworks</p>
+                <ul class="list-items margin-sm-t">
+                    <li class="list-item">
+                        <div class="framework-icon"></div></span> JavaScript (ES5/ES6)
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>Ruby</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>HTML</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>CSS</span>
+                    </li>
+                </ul>
+                <span>
+                    <img src="./images/#.png" alt="" />
+                </span>
+            </div>
+            <div class="framwork-card card-three">
+                <p class="framework-name">Skills</p>
+                <ul class="list-items margin-sm-t">
+                    <li class="list-item">
+                        <div class="framework-icon"></div></span> JavaScript (ES5/ES6)
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>Ruby</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>HTML</span>
+                    </li>
+                    <li class="list-item">
+                        <div class="framework-icon"></div><span>CSS</span>
+                    </li>
+                </ul>
+                <span>
+                    <img src="./images/#.png" alt="" />
+                </span>
+            </div>
         </div>
-        <div class="framwork-card card-three">
-          <p class="framework-name">Skills</p>
-          <ul class="list-items">
-            <li>JavaScript (ES5/ES6)</li>
-            <span><i class="fas fa-sharp fa-solid fa-circle-small"></i></span>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <span>
-            <img src="./images/#.png" alt="">
-          </span>
-        </div>
-      </div>
     </section>
     <section class="get-started-section">
         <div class="nav-section-img">
             <img src="./images/image_geometry_1.png" alt="" />
-          </div>
+        </div>
 
-          <div class="get-started-info">
+        <div class="get-started-info">
+            <p>Get started</p>
 
-          </div>
+            <h3 class="get-started-text margin-sm">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna.
+            </h3>
+        </div>
+        <form action="" class="get-started-form margin-md-sm">
+            <div class="form-control">
+                <label for="name">Your name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-control margin-xsm-t">
+                <label for="name">Your Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-control-area margin-xsm-t">
+                <textarea name="" id="" rows="10" placeholder="Enter your message here..."></textarea>
 
+            </div>
+
+        </form>
+        <button class="btn btn-header margin-sm ">
+            <a href="">Start collaboration</a>
+        </button>
 
     </section>
-  </body>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+
+            <aside>
+                <a href="">Get my Resume</a>
+                <span></span>
+            </aside>
+            <ul>
+                <li><ion-icon name="logo-twitter"></ion-icon></li>
+                <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                <li><ion-icon name="logo-medium"></ion-icon></li>
+                <li><ion-icon name="logo-amazon"></ion-icon></li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

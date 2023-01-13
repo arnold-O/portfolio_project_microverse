@@ -22,23 +22,66 @@ body {
 /* start: variables */
 :root {
   --color-tint: #fdf2e9;
-  --btn-color: #e67e22;
   --primary-white: #fff;
+  --font-family-secondary: "Playfair Display";
+  --font-family-primary: "Poppins";
 }
 
 /*  end: variables */
 
 /* reuseable Component */
+
+/* PADDING AND MARGIN SECTION */
+.margin-lg {
+  margin-top: 5.6rem;
+}
+
+.margin-sm {
+  margin-top: 2rem;
+}
+.margin-sm-t {
+  margin-top: 2.1rem;
+}
+.margin-xsm {
+  margin-top: 1.6rem;
+}
+.margin-md {
+  margin-top: 3rem;
+}
+.margin-md-sm {
+  margin-top: 3.2rem;
+}
+.margin-md-sm-b {
+  margin-bottom: 3.2rem;
+}
+.margin-xmd {
+  margin-top: 4rem;
+}
+.margin-xmd-b {
+  margin-bottom: 4rem;
+}
+.margin-xmd-t {
+  margin-top: 4rem;
+}
+.margin-sm-b {
+  margin-bottom: 2rem;
+}
+.padding-sm {
+  padding-left: 1.6rem;
+}
+.padding-md {
+  padding: 2rem;
+}
+.margin-xsm-t {
+  margin-top: 0.8rem;
+}
+
+/* PADDING AND MARGIN SECTION */
+
 .container {
   padding: 0 2.4rem;
 }
 .container-project {
-}
-
-.list-icon {
-  width: 2.8rem;
-  height: 2.8rem;
-  color: #e67e22;
 }
 
 .grid {
@@ -76,6 +119,25 @@ body {
   outline: none;
   border: none;
 }
+.btn-header {
+    width: 100%;
+    background: #1a2236;
+    /* padding: 2.5rem 0; */
+  }
+  .btn-header:hover{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+background: #E5E5E5;
+
+text-align: center;
+
+color: #1A2236;
+
+}
 
 /* section Header Description */
 .header-description {
@@ -83,8 +145,7 @@ body {
 }
 
 .header-description-name {
-  font-family: "Playfair Display";
-  font-style: normal;
+  font-family: var(--font-family-secondary);
   font-weight: 500;
   font-size: 5.2rem;
   line-height: 100%;
@@ -93,7 +154,7 @@ body {
   color: #1a2236;
 }
 .header-description-text {
-  font-family: "Poppins";
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
@@ -103,26 +164,25 @@ body {
   color: #1a2236;
 }
 
-.btn-header {
-  width: 100%;
-  background: #1a2236;
-  padding: 2.5rem 0;
-}
+
 .btn-header a {
   display: block;
   text-decoration: none;
-  font-family: "Poppins";
+  font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   line-height: 24px;
   text-align: center;
+  padding: 1rem 0;
 
   color: #ffffff;
 }
 .btn-header a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #1a2236;
 }
+
 
 .box-image {
   width: auto;
@@ -132,9 +192,15 @@ body {
 .project-section {
 }
 .project-section-title {
+  font-family: var(--font-family-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 100%;
+  color: #1a2236;
 }
-.project-description-container{
-    flex-direction: column;
+.project-description-container {
+  flex-direction: column;
 }
 .project-description {
   padding: 2rem;
@@ -174,121 +240,235 @@ body {
 .project-img img {
   width: 100%;
 }
-.project-description a {
-  display: inline-block;
-  color: #fff;
-  padding: 1.8rem;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 2.4rem;
-  /* identical to box height */
+.view-project {
+  display: inline-flex;
+  align-items: center;
+
+  gap: 1.2rem;
 
   text-align: center;
   border: 1px solid #fff;
+  padding: 1.2rem;
 }
+.view-project a {
+  color: #fff;
 
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3rem;
+  text-decoration: none;
+}
+.icon {
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+}
 
 /* ******************* about section ******************** */
 
-.about-section{
-    padding: 1.6rem;
-
+.about-section {
+  padding: 1.6rem;
 }
-.about-section-title{
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 100%;
-/* identical to box height, or 50px */
-color: #1A2236;
-}
-
-.about-text{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-
-color: #1A2236;
-
-}
-.about-section-cv{
-    display: block;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-background-color: #000;
-
-}
-.about-section-cv a{
-    color: #fff;
+.about-section-title {
+  font-family: var(--font-family-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  /* identical to box height, or 50px */
+  color: #1a2236;
 }
 
-.framwork-card{
-    padding: 5rem;
+.about-text {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
 
+  color: #1a2236;
 }
-.card-one{
-    background: #1C528A;
-}
-.card-two{
-    background: #E2505C;
-    
-}
-.card-three{
-  background: #FEBF52;
-    
-}
+.about-section-cv {
+  display: flex;
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 24px;
+  padding: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  text-align: center;
 
-.framework-name{
-   
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 2rem;
-line-height: 1.5;
-letter-spacing: 1.2;
-/* identical to box height */
-
-
-color: #FFFFFF;
-    
+  color: #ffffff;
+  background-color: #000;
 }
-.list-items{
-    color: #fff;
+.about-section-cv a {
+  color: #fff;
+  text-decoration: none;
 }
-.list-items li{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 1.8rem;
-line-height: 1.7;
-letter-spacing: -0.0525em;
-list-style-position: inside;
-padding: 0;
-
-
+.cv-icon {
+  width: 3.2rem;
+  height: 3.2rem;
 }
 
+.framwork-card {
+  padding: 5rem;
+}
+.card-one {
+  background: #1c528a;
+}
+.card-two {
+  background: #e2505c;
+}
+.card-three {
+  background: #febf52;
+}
+
+.framework-name {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+
+  color: #ffffff;
+}
+
+.list-items {
+  color: #fff;
+}
+.list-items li {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  letter-spacing: -0.0525em;
+  list-style-position: inside;
+  padding: 0;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.framework-icon {
+  background-color: #fff;
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+}
 
 /* ****************get started section *****************/
 /* ****************get started section *****************/
+.get-started-section {
+  background-color: #f9f9fa;
+  padding: 1.8rem;
+}
+.get-started-info {
+  padding: 1.8rem;
+}
+.get-started-info p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
 
+.get-started-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
 
-.get-started-info{
-    padding: 1.8rem;
+  color: #1a2236;
+}
+.get-started-form {
+}
+
+.form-control {
+  display: grid;
+  flex-direction: column;
+  gap: 0.4rem;
+  border: 1px solid green;
+  padding: 0 1.6rem;
+  border-radius: 0.4rem;
+  background: #ffffff;
+  border: 1px solid #1a2236;
+}
+.form-control label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.4rem;
+  color: #7d7c84;
+}
+.form-control input {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin-bottom: 0.8rem;
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+
+  color: #1a2236;
+}
+.form-control-area textarea {
+  width: 100%;
+  height: 12rem;
+  resize: none;
+  padding: 1.6rem;
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #7d7c84;
+border: none;
+outline: none;
+border: 1px solid #DFDFE0;
+}
+
+/* color: #aaa; */
+.form-control-area textarea::placeholder {
+  color: #aaa;
+}
+.form-control-area textarea:focus {
+    background: #FFFFFF;
+border: 1px solid #DFDFE0;
+border-radius: 4px;
+
 }
 
 /***************** get started section *****************/
 /* ****************get started section *****************/
+
+.icon {
+}
+.footer-section {
+  padding: 1.6rem;
+  background: #1a2236;
+
+  /* remove after */
+  margin-bottom: 50rem;
+}
+.footer-container {
+}
+
+/* footer section */
+/* footer section */
