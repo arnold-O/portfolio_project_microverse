@@ -34,8 +34,8 @@
                 feature or website. Taka a look of my works. If you like what you see
                 and have a project you need coded, don’t hesitate and contact me.
             </p>
-            <button class="btn btn-header margin-xmd">
-                <a href="">Start collaboration</a>
+            <button class="form-btn margin-xmd ">
+                Start collaboration
             </button>
         </section>
     </main>
@@ -67,7 +67,7 @@
             </div>
             <div>
                 <div class="project-img">
-                    <img src="./images/Rectangle 22.png" alt="" />
+                    <img src="./images/Rectangle 22.png" alt="project image" />
                 </div>
                 <div class="project-description">
                     <div class="project-description">
@@ -246,24 +246,23 @@
                 eiusmod tempor incididunt ut labore et dolore magna.
             </h3>
         </div>
-        <form action="" class="get-started-form margin-md-sm">
-            <div class="form-control">
+        <form action="https://formspree.io/f/mbjelojv" method="POST" class="get-started-form margin-md-sm">
+            <div class="form-control-input">
                 <label for="name">Your name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" required maxlength="30">
             </div>
-            <div class="form-control margin-xsm-t">
+            <div class="form-control-input">
                 <label for="name">Your Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" required >
             </div>
-            <div class="form-control-area margin-xsm-t">
-                <textarea name="" id="" rows="10" placeholder="Enter your message here..."></textarea>
-
+            <div class="form-control-textarea">
+                <textarea type="text" id="" rows="10" placeholder="Enter your message here..." maxlength="500" required></textarea>
             </div>
-
+            <button type="submit" class="form-btn">
+                Start collaboration
+            </button>
         </form>
-        <button class="btn btn-header margin-sm ">
-            <a href="">Start collaboration</a>
-        </button>
+
 
     </section>
     <footer class="footer-section margin-xl-t ">

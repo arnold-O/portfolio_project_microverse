@@ -113,6 +113,11 @@ body {
   align-items: center;
 }
 
+.link-helper {
+  display: block;
+  text-decoration: none;
+}
+
 /* nav-section  */
 .nav-section {
   width: 100%;
@@ -437,7 +442,13 @@ body {
   color: #1a2236;
 }
 
-.form-control {
+.get-started-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.form-control-input {
   display: grid;
   flex-direction: column;
   gap: 0.4rem;
@@ -447,7 +458,7 @@ body {
   border: 1px solid #dfdfe0;
 }
 
-.form-control label {
+.form-control-input label {
   font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 400;
@@ -457,7 +468,7 @@ body {
   color: #7d7c84;
 }
 
-.form-control input {
+.form-control-input input {
   font-family: var(--font-family-primary);
   font-style: normal;
   font-weight: 400;
@@ -469,7 +480,7 @@ body {
   color: #1a2236;
 }
 
-.form-control-area textarea {
+.form-control-textarea textarea {
   width: 100%;
   height: 12rem;
   resize: none;
@@ -484,14 +495,41 @@ body {
   border: 1px solid #dfdfe0;
 }
 
-.form-control-area textarea::placeholder {
+.form-control-textarea textarea::placeholder {
   color: #aaa;
 }
 
-.form-control-area textarea:focus {
+.form-control-textarea textarea:focus {
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
+}
+
+.form-btn {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.2rem 6.4rem;
+  color: #fff;
+  background-color: #1a2236;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.form-btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  box-shadow: inset 0 0 0 0.5px #1a2236;
+}
+
+.form-btn:visited {
+  background: #e5e5e5;
+  box-shadow: inset 0 0 0 0.5px #1a2236;
+  color: #1a2236;
 }
 
 /***************** get started section *****************/
