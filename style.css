@@ -113,6 +113,11 @@ body {
   align-items: center;
 }
 
+.link-helper {
+  display: block;
+  text-decoration: none;
+}
+
 /* nav-section  */
 .nav-section {
   width: 100%;
@@ -492,6 +497,33 @@ body {
   background: #fff;
   border: 1px solid #dfdfe0;
   border-radius: 4px;
+}
+
+.form-btn {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.2rem 6.4rem;
+  color: #fff;
+  background-color: #1a2236;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.form-btn:hover {
+  color: #1a2236;
+  background-color: #e5e5e5;
+  box-shadow: inset 0 0 0 0.5px #1a2236;
+}
+
+.form-btn:visited {
+  background: #e5e5e5;
+  box-shadow: inset 0 0 0 0.5px #1a2236;
+  color: #1a2236;
 }
 
 /***************** get started section *****************/
