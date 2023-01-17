@@ -442,6 +442,12 @@ body {
   color: #1a2236;
 }
 
+.get-started-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
 .form-control-input {
   display: grid;
   flex-direction: column;
