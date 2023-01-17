@@ -246,24 +246,23 @@
                 eiusmod tempor incididunt ut labore et dolore magna.
             </h3>
         </div>
-        <form action="" class="get-started-form margin-md-sm">
+        <form action="https://formspree.io/f/mbjelojv" method="POST" class="get-started-form margin-md-sm">
             <div class="form-control">
                 <label for="name">Your name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" required maxlength="30">
             </div>
             <div class="form-control margin-xsm-t">
                 <label for="name">Your Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" required maxlength="30">
             </div>
             <div class="form-control-area margin-xsm-t">
-                <textarea name="" id="" rows="10" placeholder="Enter your message here..."></textarea>
-
+                <textarea type="text" id="" rows="10" placeholder="Enter your message here..." maxlength="500" required></textarea>
             </div>
-
+            <button type="submit" class="btn btn-header margin-sm ">
+                Start collaboration
+            </button>
         </form>
-        <button class="btn btn-header margin-sm ">
-            <a href="">Start collaboration</a>
-        </button>
+
 
     </section>
     <footer class="footer-section margin-xl-t ">
