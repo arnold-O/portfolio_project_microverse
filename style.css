@@ -580,6 +580,9 @@ body {
 .header-description-desktop{
   display: none;
 }
+/* .desktop-btn{
+  display: none;
+} */
 /* footer section */
 
 /********************** media queries applies here****************** */
@@ -617,33 +620,61 @@ body {
 
   .header-description-desktop {
     padding: 0;
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat( 2, 1fr);
-    /* gap: 9.4rem; */
+    grid-template-columns: repeat( 2, minmax(0,1fr));
+    gap: 5rem;
     align-items: center;
     /* justify-content: center; */
-    /* height: 100vh; */
+    /* height: 80rem; */
+    /* background-color: red; */
+    position: relative;
+  }
+  .header-info-container{
+  
   }
   .header-info-card{
 
-    /* padding-left: 15rem; */
+    padding-left: 2rem;
+  }
+  .header-description-name{
+    font-size: 6rem;
+  }
+
+  .form-btn{
+    width: 70%;
+    padding: 1.2rem 1.2rem;
+ 
+
+    
+
   }
   .box-image{
     display: none;
   }
   .top-image-desktop{
-
-     width: 100%;
-     box-sizing: border-box;
-  background-image: url("./images/desktop.png");
- 
-
+ width: 100%;
+  
+  
 
   }
   .top-image-desktop img{
     width: 100%;
+ 
+    
   }
-  .hi{
-    background: red;
+  .inner-image{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
+   left: 50%;
+   transform: translate(-70%, 0%);
+    
   }
+  .inner-image img{
+    width: 100%;
+
+  }
+
 }
