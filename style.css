@@ -574,4 +574,36 @@ body {
   color: #fff;
 }
 
+.nav-desktop {
+  display: none;
+}
 /* footer section */
+
+/********************** media queries applies here****************** */
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+  .nav-desktop {
+    display: contents;
+    height: 10rem;
+  }
+  .nav-desktop-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    list-style: none;
+    height: inherit;
+  }
+  .nav-desktop-items li {
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: right;
+    color: #1a2236;
+  }
+}
