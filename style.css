@@ -577,6 +577,9 @@ body {
 .nav-desktop {
   display: none;
 }
+.header-description-desktop{
+  display: none;
+}
 /* footer section */
 
 /********************** media queries applies here****************** */
@@ -605,5 +608,42 @@ body {
     line-height: 2.4rem;
     text-align: right;
     color: #1a2236;
+  }
+  /* header-description */
+
+  .header-description{
+    display: none;
+  }
+
+  .header-description-desktop {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    /* gap: 9.4rem; */
+    align-items: center;
+    /* justify-content: center; */
+    /* height: 100vh; */
+  }
+  .header-info-card{
+
+    /* padding-left: 15rem; */
+  }
+  .box-image{
+    display: none;
+  }
+  .top-image-desktop{
+
+     width: 100%;
+     box-sizing: border-box;
+  background-image: url("./images/desktop.png");
+ 
+
+
+  }
+  .top-image-desktop img{
+    width: 100%;
+  }
+  .hi{
+    background: red;
   }
 }
