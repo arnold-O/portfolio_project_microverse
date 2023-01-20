@@ -286,8 +286,8 @@ body {
 }
 
 .view-project:hover {
-  transform: all .5s;
-  transform:  scale(1.1);
+  transform: all 0.5s;
+  transform: scale(1.1);
   cursor: pointer;
 }
 
