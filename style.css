@@ -285,6 +285,12 @@ body {
   padding: 1.2rem;
 }
 
+.view-project:hover {
+  transform: all .5s;
+  transform:  scale(1.1);
+  cursor: pointer;
+}
+
 .btn-header a:hover {
   color: #1a2236;
 }
