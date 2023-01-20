@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 html {
@@ -577,7 +578,7 @@ body {
 .nav-desktop {
   display: none;
 }
-.header-description-desktop{
+.header-description-desktop {
   display: none;
 }
 /* .desktop-btn{
@@ -614,7 +615,7 @@ body {
   }
   /* header-description */
 
-  .header-description{
+  .header-description {
     display: none;
   }
 
@@ -622,7 +623,7 @@ body {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat( 2, minmax(0,1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 5rem;
     align-items: center;
     /* justify-content: center; */
@@ -630,51 +631,182 @@ body {
     /* background-color: red; */
     position: relative;
   }
-  .header-info-container{
-  
+  .header-info-container {
   }
-  .header-info-card{
-
+  .header-info-card {
     padding-left: 2rem;
   }
-  .header-description-name{
+  .header-description-name {
     font-size: 6rem;
   }
 
-  .form-btn{
+  .form-btn {
     width: 70%;
     padding: 1.2rem 1.2rem;
- 
-
-    
-
   }
-  .box-image{
+  .box-image {
     display: none;
   }
-  .top-image-desktop{
- width: 100%;
-  
-  
-
-  }
-  .top-image-desktop img{
+  .top-image-desktop {
     width: 100%;
- 
-    
   }
-  .inner-image{
+  .top-image-desktop img {
+    width: 100%;
+  }
+  .inner-image {
     width: 8rem;
     height: 8rem;
     position: absolute;
     bottom: 0;
-   left: 50%;
-   transform: translate(-70%, 0%);
-    
+    left: 50%;
+    transform: translate(-70%, 0%);
   }
-  .inner-image img{
+  .inner-image img {
     width: 100%;
-
+  }
+  .mobile-version {
+    display: none;
+  }
+  .desktop-version-projects {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .desktop-img-container {
+    width: 100%;
+    position: relative;
+  }
+  .desktop-img-container img {
+    width: 100%;
+    height: auto;
+  }
+  .project-description {
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.5s ease;
+    overflow: hidden;
+    height: 0;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.5);*/
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(12px);
+  }
+  .project-name {
+    font-size: 3.2rem;
+  }
+  .btn-feature {
+  }
+  .desktop-img-container:hover .project-description {
+    height: 65%;
+    padding: 2.4rem;
   }
 
+  .desktop-project-name {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 100%;
+
+    color: #1a2236;
+    transform: rotate(-90deg);
+  }
+  .desktop-project-title {
+    position: relative;
+  }
+  .dots-projects {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .dots-projects img {
+    width: 100%;
+  }
+  .view-project {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #fff;
+
+    padding: 0.857rem;
+  }
+  .view-project a {
+    color: #1a2236;
+    font-size: 1.8rem;
+  }
+  .icon {
+    color: #1a2236;
+    width: 2.2rem;
+  }
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* align-items: center; */
+    gap: 2rem;
+  }
+  .framwork-card {
+  padding: 2rem;
+}
+  .about-framework{
+    order: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-section-description{
+    padding: 2rem;
+    order: 2;
+  }
+.list-items li {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.7;
+  letter-spacing: -0.0525em;
+  list-style-position: inside;
+  padding: 0;
+}
+
+  /* .last{
+    margin-bottom: 0;
+  } */
+  .framework-footer-img {
+    width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.framework-footer-img img {
+  width: 100%;
+}
+.about-section-title {
+  font-weight: 600;
+  font-size: 70px;
+}
+.about-text {
+  font-size: 1.2rem;
+}
+.about-section-cv{
+  padding: .5rem;
+}
+.btn-header {
+  width: 70%;
+  background: #1a2236;
+  transition: all 0.4s;
+}
+.btn-header a {
+  display: block;
+  text-decoration: none;
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+  text-align: center;
+  padding: .875rem 0;
+  color: #fff;
+}
 }
