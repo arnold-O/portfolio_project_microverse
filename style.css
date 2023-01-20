@@ -551,7 +551,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 2.4rem;
-  /* line-height: 2.4rem; */
   color: #92dcdc;
 }
 
@@ -594,9 +593,6 @@ body {
   padding: 0;
 }
 
-.get-started-btn {
-}
-
 .card-four {
   display: none;
 }
@@ -604,11 +600,6 @@ body {
 .desktop-version {
   display: none;
 }
-
-/* .desktop-btn{
-  display: none;
-} */
-/* footer section */
 
 /********************** media queries applies here****************** */
 
@@ -654,13 +645,7 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 5rem;
     align-items: center;
-    /* justify-content: center; */
-    /* height: 80rem; */
-    /* background-color: red; */
     position: relative;
-  }
-
-  .header-info-container {
   }
 
   .header-info-card {
@@ -747,7 +732,6 @@ body {
     overflow: hidden;
     height: 0;
     width: 100%;
-    /* background-color: rgba(0,0,0,0.5);*/
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(12px);
   }
@@ -762,12 +746,11 @@ body {
   }
 
   .desktop-project-name {
-    font-family: "Playfair Display";
+    font-family: var(--font-family-secondary);
     font-style: normal;
     font-weight: 500;
     font-size: 4rem;
     line-height: 100%;
-
     color: #1a2236;
     transform: rotate(-90deg);
   }
@@ -792,7 +775,6 @@ body {
     display: inline-flex;
     justify-content: center;
     background-color: #fff;
-
     padding: 0.7rem;
   }
 
@@ -809,7 +791,6 @@ body {
   .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* align-items: center; */
     gap: 2rem;
   }
 
@@ -839,9 +820,6 @@ body {
     padding: 0;
   }
 
-  /* .last{
-    margin-bottom: 0;
-  } */
   .framework-footer-img {
     width: 50px;
     position: absolute;
@@ -946,11 +924,6 @@ body {
     gap: 1.5rem;
   }
 
-  .form-btn {
-    text-align: center;
-    width: 60%;
-  }
-
   .get-started-btn {
     display: block;
     text-align: center;
@@ -973,11 +946,6 @@ body {
     margin-top: 0;
   }
 
-  .desktop-version-project-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .grid-colun-first {
     display: grid;
   }
@@ -994,31 +962,17 @@ body {
   }
 
   .desktop-img-container-md {
-    /* width: 70%; */
-    /* height: auto; */
     justify-self: end;
   }
 
   .project-name-small {
     font-family: var(--font-family-primary);
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #fff;
   }
-
-  .desktop-image-container {
-    width: 100%;
-  }
-
-  .desktop-image-container {
-    width: inherit;
-  }
-
-  .project-name-small {
-    font-size: 2rem;
-  }
-
+  
   .btn-feature {
     font-family: var(--font-family-primary);
     font-style: normal;
@@ -1034,17 +988,10 @@ body {
     gap: 0.875rem;
   }
 
-  .project-features-small {
-  }
-
   .project-description-small {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-  }
-
-  .desktop-img-big {
-    width: 100%;
   }
 
   .desktop-img-big img {
