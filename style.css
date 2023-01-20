@@ -421,6 +421,7 @@ body {
 }
 
 .get-started-info {
+  display: block;
   padding: 1.8rem;
 }
 
@@ -584,11 +585,12 @@ body {
 .cta-img{
   display: none;
 }
-.desktop-input{
-  display: none;
-}
 .get-started-desktop{
-  display: none;
+    display: block;
+  padding: 0
+}
+.get-started-btn{
+ 
 }
 /* .desktop-btn{
   display: none;
@@ -836,12 +838,23 @@ body {
   margin-top: 15rem;
   
 }
+.get-started-info p{
+  text-align: center;
+}
 .get-started-desktop{
   display: block;
   padding: 10rem;
-  text-align: center;
+ 
 }
-
+.get-started-text{
+  text-align: justify;
+  font-family: var(--font-family-primary);
+font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 21px;
+letter-spacing: -0.01em;
+}
 .first-top{
   position: absolute;
   top: 0;
@@ -856,5 +869,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+}
+.form-btn{
+  text-align: center;
+  width:40%
+}
+.get-started-btn{
+  display: block;
+  text-align: center;
+}
+.get-started-btn .form-btn{
+    padding: 1.2rem 4.2rem;
+
 }
 }
