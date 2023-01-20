@@ -581,6 +581,15 @@ body {
 .header-description-desktop {
   display: none;
 }
+.cta-img{
+  display: none;
+}
+.desktop-input{
+  display: none;
+}
+.get-started-desktop{
+  display: none;
+}
 /* .desktop-btn{
   display: none;
 } */
@@ -808,5 +817,44 @@ body {
   text-align: center;
   padding: .875rem 0;
   color: #fff;
+}
+
+.nav-section-img{
+  display: none;
+}
+.cta-img{
+   display:block;
+  width: 10rem;
+}
+.cta-img img{
+  width: inherit
+}
+.get-started-section {
+  position: relative;
+  background-color: #f9f9fa;
+  padding:0;
+  margin-top: 15rem;
+  
+}
+.get-started-desktop{
+  display: block;
+  padding: 10rem;
+  text-align: center;
+}
+
+.first-top{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.second-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.desktop-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
 }
 }
