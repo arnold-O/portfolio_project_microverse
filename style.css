@@ -1136,17 +1136,13 @@ body {
     align-items: center;
     position: relative;
   }
-  .get-started-desktop{
+
+  .get-started-desktop {
     width: 55rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
   }
 
   .header-info-card {
@@ -1178,7 +1174,6 @@ body {
     transition: all 0.4s;
     margin-top: 4.2rem;
   }
-  
 
   .mt-info {
     margin-top: 5.9rem;
@@ -1330,7 +1325,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 16.8rem 44.6rem 13.5rem 44.6rem;
-    /* position: relative; */
   }
 
   .first-top {
