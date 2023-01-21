@@ -248,9 +248,9 @@ body {
 }
 
 .project-description {
-  padding: 2rem;
+  padding: 6rem;
   background: #1a2236;
-  backdrop-filter: blur(0.5px);
+  /* backdrop-filter: blur(0.5px); */
 }
 
 .project-name {
@@ -323,6 +323,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: #1a2236;
+  margin-top: 1.2rem;
 }
 
 .about-section-cv {
@@ -374,6 +375,7 @@ body {
 
 .list-items {
   color: #fff;
+  margin-top: 2.1rem;
 }
 
 .list-items li {
@@ -691,7 +693,9 @@ body {
   }
 
   .desktop-version {
-    display: contents;
+    display: block;
+    margin-top: 21rem;
+   
   }
 
   .desktop-version-projects {
@@ -1054,7 +1058,9 @@ body {
   .desktop-last-img img {
     width: 100%;
   }
-
+  .card-four{
+    position: relative;
+  }
   .inner-image-desktop {
     width: 8rem;
     height: 8rem;
@@ -1069,9 +1075,9 @@ body {
   }
 
   .desktop-square-box {
-    width: 4rem;
-    height: 4rem;
-    position: relative;
+    width: 6.2rem;
+    height: 6.2rem;
+    
     position: absolute;
     top: 40%;
     right: 0;
@@ -1081,9 +1087,7 @@ body {
     width: 100%;
   }
 
-  .card-four {
-    display: block;
-  }
+
 
   .version-project-4-container {
     display: flex;
@@ -1107,4 +1111,191 @@ body {
   .version-project-4-container .image-right img {
     width: 100%;
   }
+}
+
+@media (min-width: 1000px) {
+  .header-description-desktop {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9.4rem;
+    align-items: center;
+    position: relative;
+  }
+  .header-info-card {
+    padding-left: 16rem;
+  }
+  .header-description-text{
+    margin-top: 6rem;
+  }
+  .header-description-name {
+    font-family: var(--font-family-secondary);
+    font-weight: 500;
+    font-size: 11rem;
+    line-height: 100%;
+    color: #1a2236;
+  }
+  .form-btn {
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+
+    padding: 2.17rem 2.5rem;
+    color: #fff;
+    background-color: #1a2236;
+    
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .mt-info{
+    margin-top: 5.9rem;
+  }
+  .inner-image {
+    width: 17.5rem;
+    height: 17.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-74%, 0%);
+  }
+
+  .inner-image img {
+    width: 100%;
+  }
+
+  .desktop-project-name {
+    padding-bottom: 10rem;
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    font-size: 11rem;
+    color: #1a2236;
+   
+  }
+  .dots-projects {
+    width: 13.2rem;
+    height: 15.4rem;
+    position: absolute;
+    top: 0.5%;
+    right: 0;
+  }
+  
+  .desktop-img-container {
+    width: 100%
+    /* height: 55.8rem; */
+    /* position: relative; */
+  }
+
+  .desktop-img-container img {
+    width: 100%;
+    
+  }
+  .project-description {
+    padding: 6rem;
+    background: #1a2236;
+    /* backdrop-filter: blur(0.5px); */
+  }
+  .project-name{
+    font-family: var(--font-family-primary);
+font-style: normal;
+font-weight: 700;
+font-size: 6rem;
+line-height: 80%;
+color: #FFFFFF;
+
+  }
+  .project-features{
+    margin-top: 3.4rem;
+    margin-bottom: 6rem;
+  }
+  .btn-feature {
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80%;
+    color: #1a2236;
+    background: #98dede;
+    padding:  1.2rem 2rem;
+    font-size: 2rem;
+
+    
+    
+  }
+  .project-name-small {
+    font-size: 4rem;
+  }
+  .project-features-small{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+  .view-project  {
+    
+   padding: 1.2rem 2rem;
+  }
+  .view-project a {
+    font-family: var(--font-family-primary);
+font-style: normal;
+font-weight: 500;
+font-size: 1/8rem;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1A2236;
+  }
+  
+  .laptop-photo {
+    width: 46.5rem;
+    align-self: flex-end;
+  }
+  .desktop-square-bg {
+    width: 35rem;
+    align-self: flex-end;
+  }
+  .desktop-polygon-bg {
+    width: 11.4rem;
+    
+  }
+  .desktop-last-img {
+    width: 46.5rem;
+  }
+
+  .version-project-4-container .image-left {
+    width: 21.2rem;
+    
+  }
+  .version-project-4-container .image-right {
+    width: 8.8rem;
+  }
+  /* about Section */
+  .about-section {
+    gap: 9.6rem;
+    padding: 16rem;
+  }
+  .about-section-title {
+    
+    font-size: 11rem;
+   
+  }
+  .about-text {
+    margin-top: 3rem;
+
+  }
+  .btn-about{
+    width: 25.4rem;
+height: 7rem;
+
+
+background: #1A2236;
+  }
+
+ 
+
 }
