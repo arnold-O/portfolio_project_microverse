@@ -1315,24 +1315,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 16.8rem  44.6rem 13.5rem 44.6rem;
-
+    padding: 16.8rem 44.6rem 13.5rem 44.6rem;
   }
 
-  .first-top{
+  .first-top {
     width: 26.3rem;
     height: 35rem;
   }
-  .first-top img{
-    width:100%;
-    
+
+  .first-top img {
+    width: 100%;
   }
-  .second-bottom{
+
+  .second-bottom {
     width: 35rem;
     height: 35rem;
   }
-  .second-bottom img{
-    width: 100%
+
+  .second-bottom img {
+    width: 100%;
   }
 
   .get-started-info h2 {
