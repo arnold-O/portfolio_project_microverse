@@ -250,7 +250,6 @@ body {
 .project-description {
   padding: 6rem;
   background: #1a2236;
-  /* backdrop-filter: blur(0.5px); */
 }
 
 .project-name {
@@ -554,8 +553,10 @@ body {
   font-family: var(primary);
   font-style: normal;
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #92dcdc;
+  text-align: center;
+  text-decoration: none;
 }
 
 .resume-link-icon {
@@ -602,6 +603,10 @@ body {
 }
 
 .desktop-version {
+  display: none;
+}
+
+.get-started-form-desktop {
   display: none;
 }
 
@@ -697,7 +702,6 @@ body {
   .desktop-version {
     display: block;
     margin-top: 21rem;
-   
   }
 
   .desktop-version-projects {
@@ -798,10 +802,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-  }
-
-  .framwork-card {
-    padding: 2rem;
   }
 
   .about-framework {
@@ -1060,24 +1060,25 @@ body {
   .desktop-last-img img {
     width: 100%;
   }
-  .framwork-card{
+
+  .framwork-card {
     padding: 5rem 5rem 5.3rem;
   }
-  .framwork-card-desktop{
+
+  .framwork-card-desktop {
     display: contents;
     position: relative;
     padding: 0;
     background-color: red;
   }
+
   .inner-image-desktop {
     width: 15.7rem;
     height: 15.3rem;
     position: absolute;
-    bottom:2%;
-    left: 33%;
-   
-    
-    /* transform: translate(-0, -50%); */
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-25%, 0);
   }
 
   .inner-image-desktop img {
@@ -1087,17 +1088,14 @@ body {
   .desktop-square-box {
     width: 6.2rem;
     height: 6.2rem;
-    
     position: absolute;
-    top:18%;
+    top: 18%;
     right: 0;
   }
 
   .desktop-square-box img {
     width: 100%;
   }
-
-
 
   .version-project-4-container {
     display: flex;
@@ -1133,12 +1131,15 @@ body {
     align-items: center;
     position: relative;
   }
+
   .header-info-card {
     padding-left: 16rem;
   }
-  .header-description-text{
+
+  .header-description-text {
     margin-top: 6rem;
   }
+
   .header-description-name {
     font-family: var(--font-family-secondary);
     font-weight: 500;
@@ -1146,23 +1147,24 @@ body {
     line-height: 100%;
     color: #1a2236;
   }
+
   .form-btn {
     font-family: var(--font-family-primary);
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
     text-align: center;
-
     padding: 2.17rem 2.5rem;
     color: #fff;
     background-color: #1a2236;
-    
     cursor: pointer;
     transition: all 0.4s;
   }
-  .mt-info{
+
+  .mt-info {
     margin-top: 5.9rem;
   }
+
   .inner-image {
     width: 17.5rem;
     height: 17.5rem;
@@ -1184,8 +1186,8 @@ body {
     height: 100%;
     font-size: 11rem;
     color: #1a2236;
-   
   }
+
   .dots-projects {
     width: 13.2rem;
     height: 15.4rem;
@@ -1193,35 +1195,34 @@ body {
     top: 0.5%;
     right: 0;
   }
-  
+
   .desktop-img-container {
-    width: 100%
-    /* height: 55.8rem; */
-    /* position: relative; */
+    width: 100%;
   }
 
   .desktop-img-container img {
     width: 100%;
-    
   }
+
   .project-description {
     padding: 6rem;
     background: #1a2236;
-    /* backdrop-filter: blur(0.5px); */
   }
-  .project-name{
-    font-family: var(--font-family-primary);
-font-style: normal;
-font-weight: 700;
-font-size: 6rem;
-line-height: 80%;
-color: #FFFFFF;
 
+  .project-name {
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 80%;
+    color: #fff;
   }
-  .project-features{
+
+  .project-features {
     margin-top: 3.4rem;
     margin-bottom: 6rem;
   }
+
   .btn-feature {
     font-family: var(--font-family-primary);
     font-style: normal;
@@ -1229,88 +1230,84 @@ color: #FFFFFF;
     line-height: 80%;
     color: #1a2236;
     background: #98dede;
-    padding:  1.2rem 2rem;
+    padding: 1.2rem 2rem;
     font-size: 2rem;
-
-    
-    
   }
+
   .project-name-small {
     font-size: 4rem;
   }
-  .project-features-small{
+
+  .project-features-small {
     display: flex;
     align-items: center;
     gap: 2rem;
-    
   }
-  .view-project  {
-    
-   padding: 1.2rem 2rem;
+
+  .view-project {
+    padding: 1.2rem 2rem;
   }
+
   .view-project a {
     font-family: var(--font-family-primary);
-font-style: normal;
-font-weight: 500;
-font-size: 1/8rem;
-line-height: 27px;
-/* identical to box height */
-
-text-align: center;
-
-color: #1A2236;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1/8rem;
+    line-height: 27px;
+    text-align: center;
+    color: #1a2236;
   }
-  
+
   .laptop-photo {
     width: 46.5rem;
     align-self: flex-end;
   }
+
   .desktop-square-bg {
     width: 35rem;
     align-self: flex-end;
   }
+
   .desktop-polygon-bg {
     width: 11.4rem;
-    
   }
+
   .desktop-last-img {
     width: 46.5rem;
   }
 
   .version-project-4-container .image-left {
     width: 21.2rem;
-    
   }
+
   .version-project-4-container .image-right {
     width: 8.8rem;
   }
+
   /* about Section */
   .about-section {
     gap: 9.6rem;
     padding: 16rem;
   }
+
   .about-section-title {
-    
     font-size: 11rem;
-   
   }
+
   .about-text {
     margin-top: 3rem;
-
   }
-  .btn-about{
+
+  .btn-about {
     width: 25.4rem;
-height: 7rem;
-
-
-background: #1A2236;
+    height: 7rem;
+    background: #1a2236;
   }
 
   /* **************GET STARTED*********** */
 
   .get-started-desktop {
-   
-    padding: 16.8rem 44.9rem
+    padding: 16.8rem 44rem;
   }
 
   .get-started-info h2 {
@@ -1322,12 +1319,20 @@ background: #1A2236;
     color: #1a2236;
     text-align: center;
   }
+
   .get-started-text {
     margin-top: 4rem;
   }
+
   .get-started-form {
     display: none;
   }
+
+  .get-started-form-desktop {
+    display: grid;
+    flex-direction: column;
+  }
+
   .form-control-input input {
     font-family: var(--font-family-primary);
     font-style: normal;
@@ -1340,11 +1345,13 @@ background: #1A2236;
     outline: none;
     color: #1a2236;
   }
-  .textarea-section{
+
+  .textarea-section {
     margin-top: 2rem;
   }
+
   .form-control-input-section label,
-  .textarea-section label{
+  .textarea-section label {
     display: inline-block;
     font-family: var(--font-family-primary);
     font-style: normal;
@@ -1355,15 +1362,20 @@ background: #1A2236;
     color: #7d7c84;
     margin-bottom: 0.4rem;
   }
+
   .footer-section {
     padding: 4.8rem 16.4rem 4.8rem 16rem;
-    
   }
+
   .footer-container {
     display: flex;
     align-items: center;
     gap: 69.8rem;
   }
- 
 
+  .footer-container aside {
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+  }
 }
