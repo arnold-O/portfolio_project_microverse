@@ -48,8 +48,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 - Navbar Section
 - Headline Section
 - Portfolio Section
@@ -108,10 +106,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
 - GitHub: [@githubhandle](https://github.com/arnold-O)
 - Twitter: [@twitterhandle](https://twitter.com/arnoldoghiator)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/arnoldoghiator/)
@@ -123,8 +117,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Adding Desktop view.
->Adding Responsiveness in all screen sizes
+- Adding Desktop view.
+- Adding Responsiveness in all screen sizes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

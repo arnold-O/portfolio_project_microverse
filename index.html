@@ -11,225 +11,377 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
 </head>
 
 <body>
     <main>
-        <header class="nav-section grid grid--2-cols">
-            <div class="nav-section-img">
-                <img src="./images/image_geometry_1.png" alt="" />
-            </div>
-            <nav class="nav-hamburger">
-                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-            </nav>
-        </header>
+        <section>
+            <header class="nav-section grid mobile-nav  grid--2-cols">
 
-        <section class="header-description margin-md">
-            <h1 class="header-description-name">Arnold Oshos Oghiator </h1>
-            <p class="header-description-text margin-sm">
-                Hello! I am a software developer! I can help you build a product,
-                feature or website. Taka a look of my works. If you like what you see
-                and have a project you need coded, don’t hesitate and contact me.
-            </p>
-            <button class="form-btn margin-xmd ">
-                Start collaboration
-            </button>
+                <div class="nav-section-img">
+                    <img src="./images/image_geometry_1.png" alt="" />
+                </div>
+                <nav class="nav-hamburger">
+                    <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                </nav>
+            </header>
+            <nav class="nav-desktop">
+                <ul class="nav-desktop-items">
+                    <li>Hello</li>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+            </nav>
+        </section>
+
+        <section>
+            <div class="header-description margin-md">
+                <h1 class="header-description-name">Arnold Oshos Oghiator </h1>
+                <p class="header-description-text margin-sm">
+                    Hello! I am a software developer! I can help you build a product,
+                    feature or website. Taka a look of my works. If you like what you see
+                    and have a project you need coded, don’t hesitate and contact me.
+                </p>
+                <div class="get-started-btn">
+                    <button type="submit" class="form-btn">
+                        Start collaboration
+                    </button>
+                </div>
+            </div>
+            <div class="header-description-desktop">
+                <div class="header-info-container">
+                    <div class="header-info-card">
+                        <h1 class="header-description-name">Arnold Oghiator </h1>
+                        <p class="header-description-text">
+                            Hello! I am a software developer! I can help you build a product,
+                            feature or website. Taka a look of my works. If you like what you see
+                            and have a project you need coded, don’t hesitate and contact me.
+                        </p>
+                        <button class="form-btn mt-info">
+                            Start collaboration
+                        </button>
+                    </div>
+                    <div class="inner-image">
+                        <img src="./images/image_dots.png" alt="">
+                    </div>
+                </div>
+                <div class="top-image-desktop">
+                    <img src="./images/desktop.png" alt="">
+                </div>
+            </div>
         </section>
     </main>
     <section class="margin-md-sm">
         <div class="box-image"></div>
     </section>
-    <section class="project-section  margin-md-sm">
-        <h3 class="project-section-title margin-md-sm-b padding-sm">Projects</h3>
 
-        <div class="project-description-container grid">
-            <div>
-                <div class="project-img">
-                    <img src="./images/Rectangle 21.png" alt="" />
-                </div>
-                <div class="project-description">
-                    <div class="project-description">
-                        <p class="project-name ">Project name goes here</p>
-                        <ul class="project-features margin-xsm margin-sm-b ">
-                            <li class="btn btn-feature">HTML/CSS</li>
-                            <li class="btn btn-feature">Ruby on Rails</li>
-                            <li class="btn btn-feature">JavaScript</li>
-                        </ul>
-                        <div class="view-project">
-                            <a href="">See this Project</a> <span><ion-icon class="icon"
-                                    name="arrow-forward-outline"></ion-icon></span>
+    <section class="project-section  margin-md-sm">
+        <div class="mobile-version">
+            <h3 class="project-section-title margin-md-sm-b padding-sm">Projects</h3>
+
+            <div class="project-description-container grid">
+                <div>
+                    <div class="project-img">
+                        <img src="./images/Rectangle 21.png" alt="" />
+                    </div>
+                    
+                        <div class="project-description">
+                            <p class="project-name ">Project name goes here</p>
+                            <ul class="project-features margin-xsm margin-sm-b ">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">JavaScript</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
                         </div>
+                   
+                </div>
+                <div>
+                    <div class="project-img">
+                        <img src="./images/Rectangle 22.png" alt="project image" />
+                    </div>
+                    
+                        <div class="project-description">
+                            <p class="project-name ">Project name goes here</p>
+                            <div class="project-features margin-xsm margin-sm-b ">
+                                <button class="btn btn-feature">HTML/CSS</button>
+                                <button class="btn btn-feature">Ruby on Rails</button>
+                                <button class="btn btn-feature">JavaScript</button>
+                            </div>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div>
+                    <div class="project-img">
+                        <img src="./images/Rectangle 23.png" alt="" />
+                    </div>
+                    
+                        <div class="project-description">
+                            <p class="project-name ">Project name goes here</p>
+                            <ul class="project-features margin-xsm margin-sm-b ">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">JavaScript</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+                       
+                    </div>
+                </div>
+                <div>
+                    <div class="project-img">
+                        <img src="./images/Rectangle 24.png" alt="" />
+                    </div>
+                
+                        <div class="project-description">
+                            <p class="project-name ">Project name goes here</p>
+                            <ul class="project-features margin-xsm margin-sm-b ">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">JavaScript</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="project-img">
+                        <img src="./images/Rectangle 25.png" alt="" />
+                    </div>
+                    
+                        <div class="project-description">
+                            <p class="project-name ">Project name goes here</p>
+                            <ul class="project-features margin-xsm margin-sm-b ">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">JavaScript</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+                       
                     </div>
                 </div>
             </div>
-            <div>
-                <div class="project-img">
-                    <img src="./images/Rectangle 22.png" alt="project image" />
-                </div>
-                <div class="project-description">
-                    <div class="project-description">
-                        <p class="project-name ">Project name goes here</p>
-                        <div class="project-features margin-xsm margin-sm-b ">
-                            <button class="btn btn-feature">HTML/CSS</button>
-                            <button class="btn btn-feature">Ruby on Rails</button>
-                            <button class="btn btn-feature">JavaScript</button>
-                        </div>
-                        <div class="view-project">
-                            <a href="">See this Project</a> <span><ion-icon class="icon"
-                                    name="arrow-forward-outline"></ion-icon></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="project-img">
-                    <img src="./images/Rectangle 23.png" alt="" />
-                </div>
-                <div class="project-description">
-                    <div class="project-description">
-                        <p class="project-name ">Project name goes here</p>
-                        <ul class="project-features margin-xsm margin-sm-b ">
-                            <li class="btn btn-feature">HTML/CSS</li>
-                            <li class="btn btn-feature">Ruby on Rails</li>
-                            <li class="btn btn-feature">JavaScript</li>
-                        </ul>
-                        <div class="view-project">
-                            <a href="">See this Project</a> <span><ion-icon class="icon"
-                                    name="arrow-forward-outline"></ion-icon></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="project-img">
-                    <img src="./images/Rectangle 24.png" alt="" />
-                </div>
-                <div class="project-description">
-                    <div class="project-description">
-                        <p class="project-name ">Project name goes here</p>
-                        <ul class="project-features margin-xsm margin-sm-b ">
-                            <li class="btn btn-feature">HTML/CSS</li>
-                            <li class="btn btn-feature">Ruby on Rails</li>
-                            <li class="btn btn-feature">JavaScript</li>
-                        </ul>
-                        <div class="view-project">
-                            <a href="">See this Project</a> <span><ion-icon class="icon"
-                                    name="arrow-forward-outline"></ion-icon></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="project-img">
-                    <img src="./images/Rectangle 25.png" alt="" />
-                </div>
-                <div class="project-description">
-                    <div class="project-description">
-                        <p class="project-name ">Project name goes here</p>
-                        <ul class="project-features margin-xsm margin-sm-b ">
-                            <li class="btn btn-feature">HTML/CSS</li>
-                            <li class="btn btn-feature">Ruby on Rails</li>
-                            <li class="btn btn-feature">JavaScript</li>
-                        </ul>
-                        <div class="view-project">
-                            <a href="">See this Project</a> <span><ion-icon class="icon"
-                                    name="arrow-forward-outline"></ion-icon></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
+        <section>
+            <div class="desktop-version">
+                <div class="desktop-version-projects">
+                    <div class="desktop-project-title">
+                        <div>
+                            <h5 class="desktop-project-name">Projects</h5>
+                        </div>
+
+                        <div class="dots-projects">
+                            <img src="./images/image_dots.png" alt="">
+                        </div>
+                    </div>
+                    <div class="desktop-img-container">
+                        <img src="./images/Rectangle 21.png" alt="">
+
+                        <div class="project-description">
+                            <p class="project-name">Project name goes here</p>
+                            <ul class="project-features">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">JavaScript</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="desktop-version-project-2">
+                    <div class="grid-colun-first">
+                        <div class="desktop-image-small">
+                            <img src="./images//Rectangle 22.png" alt="">
+                        </div>
+                    </div>
+                    <div class="desktop-middle-bg">
+                        <img src="./images/image-geometry_22.png" alt="">
+                    </div>
+                    <div class="desktop-img-container  desktop-img-container-md">
+                        <img src="./images/Rectangle 25.png" alt="">
+
+                        <div class="project-description project-description-small">
+                            <p class="project-name project-name-small ">Project name goes...</p>
+                            <ul class="  project-features-small">
+                                <li class="btn btn-feature">HTML/CSS</li>
+                                <li class="btn btn-feature">Ruby on Rails</li>
+                                <li class="btn btn-feature">+1</li>
+                            </ul>
+                            <div class="view-project">
+                                <a href="">See this Project</a> <span><ion-icon class="icon"
+                                        name="arrow-forward-outline"></ion-icon></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="desktop-version-project-3">
+                    <div class="desktop-img-big">
+                        <img src="./images/Rectangle 27 (1).png" alt="">
+                    </div>
+                    <div class="rigt-version-section">
+                        <div class="laptop-photo">
+                            <img src="./images/Rectangle 26 (2).png" alt="">
+                        </div>
+                        <div class="desktop-square-bg">
+                            <img src="./images/Group 83.png" alt="">
+                        </div>
+                        <div class="desktop-polygon-bg">
+                            <img src="./images/Shape.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="desktop-version-project-4">
+                    <div class="version-project-4-container">
+                        <div class="image-left">
+                            <img src="./images/image-geometry_5.png" alt="">
+                        </div>
+                        <div class="image-right">
+                            <img src="./images/image-geometry_4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="desktop-last-img">
+                        <img src="./images/Rectangle 47 (1).png" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <section class="about-section margin-lg">
-        <h3 class="about-section-title margin-sm-b">About</h3>
-        <p class="about-text margin-md-sm-b ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
-            eiusmod
-        </p>
-        <div class="about-section-cv btn-header">
-            <a href="">Get my CV</a>
-            <ion-icon class="cv-icon" name="download-outline"></ion-icon>
-        </div>
-        <div class="about-framework margin-xmd-t">
-            <div class="main">
-            <div class="framwork-card card-one">
-                <p class="framework-name">Languages</p>
-                <ul class="list-items margin-sm-t ">
-                    <li class="list-item">
-                        <div class="framework-icon"></div></span> JavaScript (ES5/ES6)
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>Ruby</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>HTML</span>
-                    </li>
-                    <li class="list-item last">
-                        <div class="framework-icon"></div><span>CSS</span>
-                    </li>
-                </ul>
+        <div class="about-section-description">
+            <h3 class="about-section-title ">About</h3>
+            <p class="about-text margin-md-sm-b ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea
+                eiusmod
+            </p>
+            <div class="about-section-cv btn-about">
+                <a href="">Get my CV</a>
+                <ion-icon class="cv-icon" name="download-outline"></ion-icon>
             </div>
-            
-            <span class="framework-footer-img">
-                <img src="./images/frame1.png" alt="image of frame-work symbol" />
-            </span>
+        </div>
+        <div class="about-framework">
+            <div class="main">
+                <div class="framwork-card card-one">
+                    <p class="framework-name">Languages</p>
+                    <ul class="list-items margin-sm-t ">
+                        <li class="list-item">
+                            <div class="framework-icon"></div></span> JavaScript (ES5/ES6)
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>Ruby</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>HTML</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>CSS</span>
+                        </li>
+                        <li class="list-item last last-list">
+                            <div class="framework-icon"></div><span>CSS</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <span class="framework-footer-img">
+                    <img src="./images/frame1.png" alt="image of frame-work symbol" />
+                </span>
 
             </div>
             <div class="main">
-            <div class="framwork-card card-two">
-                <p class="framework-name">Frameworks</p>
-                <ul class="list-items margin-sm-t">
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>Bootstrap</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span> Ruby on rails</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>RSpec</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>Capibara</span>
-                    </li>
-                    <li class="list-item last">
-                        <div class="framework-icon"></div><span>Selenium</span>
-                    </li>
-                </ul>
-                <span class="framework-footer-img">
-                    <img src="./images/ic_framework.png" alt="image of frame-work symbol" />
-                </span>
-            </div>
+                <div class="framwork-card card-two">
+                    <p class="framework-name">Frameworks</p>
+                    <ul class="list-items margin-sm-t">
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>Bootstrap</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span> Ruby on rails</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>RSpec</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>Capibara</span>
+                        </li>
+                        <li class="list-item last">
+                            <div class="framework-icon"></div><span>Selenium</span>
+                        </li>
+                    </ul>
+                    <span class="framework-footer-img">
+                        <img src="./images/ic_framework.png" alt="image of frame-work symbol" />
+                    </span>
+                </div>
             </div>
             <div class="main">
-            <div class="framwork-card card-three">
-                <p class="framework-name">Skills</p>
-                <ul class="list-items margin-sm-t">
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>Codekit</span> 
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>Codepen</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>GitHub</span>
-                    </li>
-                    <li class="list-item">
-                        <div class="framework-icon"></div><span>GitLAb</span>
-                    </li>
-                    <li class="list-item last">
-                        <div class="framework-icon"></div><span>Terminal</span>
-                    </li>
-                </ul>
-                
-                <span class="framework-footer-img">
-                    <img src="./images/ic_skills.png" alt="image of frame-work symbol" />
-                </span>
+                <div class="framwork-card card-three">
+                    <p class="framework-name">Skills</p>
+                    <ul class="list-items">
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>Codekit</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>Codepen</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>GitHub</span>
+                        </li>
+                        <li class="list-item">
+                            <div class="framework-icon"></div><span>GitLAb</span>
+                        </li>
+                        <li class="list-item last">
+                            <div class="framework-icon"></div><span>Terminal</span>
+                        </li>
+                    </ul>
+
+                    <div class="framework-footer-img">
+                        <img src="./images/ic_skills.png" alt="image of frame-work symbol" />
+                    </div>
+                </div>
             </div>
+            <div class="main">
+                <div class="framwork-card-desktop">
+
+
+                    <div class="inner-image-desktop">
+                        <img src="./images/image_dots.png" alt="">
+                    </div>
+                    <div class="desktop-square-box">
+                        <img src="./images/Shape_2.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -237,47 +389,88 @@
         <div class="nav-section-img">
             <img src="./images/image_geometry_1.png" alt="" />
         </div>
-
-        <div class="get-started-info">
-            <p>Get started</p>
-
-            <h3 class="get-started-text margin-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna.
-            </h3>
+        <div class="cta-img first-top">
+            <img src="./images/image-geometry_6.png" alt="" />
         </div>
-        <form action="https://formspree.io/f/mbjelojv" method="POST" class="get-started-form margin-md-sm">
-            <div class="form-control-input">
-                <label for="name">Your name</label>
-                <input type="text" name="name" required maxlength="30">
-            </div>
-            <div class="form-control-input">
-                <label for="name">Your Email</label>
-                <input type="email" name="email" required >
-            </div>
-            <div class="form-control-textarea">
-                <textarea type="text" id="" rows="10" placeholder="Enter your message here..." maxlength="500" required></textarea>
-            </div>
-            <button type="submit" class="form-btn">
-                Start collaboration
-            </button>
-        </form>
+        <div class="cta-img second-bottom">
+            <img src="./images/image-geometry_7.png" alt="" />
+        </div>
 
+        <div class="get-started-desktop">
+            <div class="get-started-info">
+                <h2>Get started</h2>
+
+                <h3 class="get-started-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ut, est!z
+                </h3>
+            </div>
+            <form action="https://formspree.io/f/mbjelojv" method="POST" class="get-started-form margin-md-sm">
+                <div class="desktop-input">
+                    <div class="form-control-input">
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" required maxlength="30">
+                    </div>
+                    <div class="form-control-input margin-form-mobile">
+                        <label for="name">Your Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-control-textarea">
+                    <textarea type="text" id="" rows="10" placeholder="Enter your message here..." maxlength="500"
+                        required></textarea>
+                </div>
+                <div class="get-started-btn">
+                    <button type="submit" class="form-btn">
+                        Start collaboration
+                    </button>
+                </div>
+            </form>
+            <form action="https://formspree.io/f/mbjelojv" method="POST" class="get-started-form-desktop margin-md-sm">
+                <div class="desktop-input">
+                    <div class="form-control-input-section">
+                        <label for="name">Your name</label>
+                    <div class="form-control-input">
+                        <input type="text" name="name" required maxlength="30">
+                    </div>
+                    </div>
+                    <div class="form-control-input-section">
+                        <label for="name">Your Email</label>
+                    <div class="form-control-input">
+                        <input type="email" name="email" required>
+                    </div>
+                    </div>
+                </div>
+                <div class="textarea-section">
+                    <label for="">Message</label>
+                    <div class="form-control-textarea">
+                        <textarea type="text" id="" rows="10" placeholder="Enter your message here..." maxlength="500"
+                            required></textarea>
+                    </div>
+                </div>
+                <div class="get-started-btn">
+                    <button type="submit" class="form-btn-desktop">
+                        Start collaboration
+                    </button>
+                </div>
+            </form>
+        </div>
 
     </section>
-    <footer class="footer-section margin-xl-t ">
+    <footer class="footer-section">
         <div class="footer-container">
 
             <aside>
                 <a href="" class="resume-link">Get my Resume</a>
                 <span><i class="fa-sharp fa-solid fa-arrow-up-right-from-square fa-2x resume-link-icon"></i></span>
             </aside>
-            <ul class="list-footer-container margin-md">
+            <ul class="list-footer-container">
                 <li class="list-footer">
                     <ion-icon class="footer-icon" name="logo-stackoverflow"></ion-icon>
                 </li>
                 <li class="list-footer">
-                   
+
                     <ion-icon class="footer-icon" name="logo-github"></ion-icon>
                 </li>
                 <li class="list-footer">
