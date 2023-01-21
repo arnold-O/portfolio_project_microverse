@@ -543,22 +543,11 @@ body {
   color: #fff;
 }
 
-/* footer section */
-
-
-
 /* Animation section */
-.view-project{
-  transition: all .3secons;
-}
-.view-project:hover, 
-.view-project a:hover{
+
+.view-project:hover,
+.view-project a:hover {
   background-color: #dfdfe0;
-  transition: all .3s;
+  transition: all 0.3s;
   color: #1a2236;
-}
-
-.view-project .icon:hover{
-  color: inherit;
-
 }
