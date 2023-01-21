@@ -215,6 +215,7 @@ body {
   font-size: 3rem;
   line-height: 3rem;
   text-decoration: none;
+  width: 100%;
 }
 
 .btn-header:hover a {
@@ -543,3 +544,21 @@ body {
 }
 
 /* footer section */
+
+
+
+/* Animation section */
+.view-project{
+  transition: all .3secons;
+}
+.view-project:hover, 
+.view-project a:hover{
+  background-color: #dfdfe0;
+  transition: all .3s;
+  color: #1a2236;
+}
+
+.view-project .icon:hover{
+  color: inherit;
+
+}
