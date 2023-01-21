@@ -27,6 +27,7 @@ body {
 .margin-form-mobile {
   margin-top: 0.8rem;
 }
+
 .margin-lg {
   margin-top: 5.6rem;
 }
@@ -577,17 +578,14 @@ body {
   list-style: none;
   cursor: pointer;
 }
-.get-started-info h2{
+
+.get-started-info h2 {
   font-family: var(--font-family-secondary);
-font-style: normal;
-font-weight: 400;
-font-size: 5rem;
-line-height: 100%;
-/* identical to box height, or 50px */
-
-
-color: #1A2236;
-
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5rem;
+  line-height: 100%;
+  color: #1a2236;
 }
 
 .footer-icon {
@@ -624,10 +622,10 @@ color: #1A2236;
 .get-started-form-desktop {
   display: none;
 }
-.framwork-card-desktop{
+
+.framwork-card-desktop {
   display: none;
 }
-
 
 /********************** media queries applies here****************** */
 
