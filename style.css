@@ -1136,6 +1136,18 @@ body {
     align-items: center;
     position: relative;
   }
+  .get-started-desktop{
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
 
   .header-info-card {
     padding-left: 16rem;
@@ -1153,18 +1165,20 @@ body {
     color: #1a2236;
   }
 
-  .form-btn {
+  .get-started-btn .form-btn-desktop {
     font-family: var(--font-family-primary);
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
     text-align: center;
-    padding: 2.17rem 2.5rem;
+    padding: 2.1rem 4.2rem;
     color: #fff;
     background-color: #1a2236;
     cursor: pointer;
     transition: all 0.4s;
+    margin-top: 4.2rem;
   }
+  
 
   .mt-info {
     margin-top: 5.9rem;
@@ -1316,6 +1330,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 16.8rem 44.6rem 13.5rem 44.6rem;
+    /* position: relative; */
   }
 
   .first-top {
@@ -1347,6 +1362,7 @@ body {
   }
 
   .get-started-text {
+    font-size: 1.4rem;
     margin-top: 4rem;
   }
 
