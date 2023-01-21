@@ -905,7 +905,6 @@ body {
 
   .get-started-desktop {
     display: block;
-    padding: 10rem;
   }
 
   .get-started-text {
@@ -1313,7 +1312,13 @@ body {
   /* **************GET STARTED*********** */
 
   .get-started-desktop {
-    padding: 16.8rem 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .get-started-section {
+    padding: 6rem 44rem;
   }
 
   .get-started-info h2 {
