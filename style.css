@@ -893,7 +893,14 @@ body {
     margin-top: 15rem;
   }
 
-  .get-started-info p {
+  .get-started-info h2 {
+    font-family: var(--font-family-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11rem;
+    line-height: 100%;
+    color: #1a2236;
+    text-align: center;
     text-align: center;
   }
 
