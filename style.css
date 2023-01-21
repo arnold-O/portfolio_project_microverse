@@ -220,6 +220,7 @@ body {
   font-size: 3rem;
   line-height: 3rem;
   text-decoration: none;
+  width: 100%;
 }
 
 .btn-header:hover a {
@@ -288,6 +289,12 @@ body {
   text-align: center;
   border: 1px solid #fff;
   padding: 1.2rem;
+}
+
+.view-project:hover {
+  transform: all 0.5s;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .btn-header a:hover {
@@ -574,4 +581,11 @@ body {
   color: #fff;
 }
 
-/* footer section */
+/* Animation section */
+
+.view-project:hover,
+.view-project a:hover {
+  background-color: #dfdfe0;
+  transition: all 0.3s;
+  color: #1a2236;
+}
