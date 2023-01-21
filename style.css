@@ -1311,7 +1311,7 @@ body {
 
   /* **************GET STARTED*********** */
 
-  .get-started-desktop {
+  .get-started-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
