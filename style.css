@@ -1315,10 +1315,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 16.8rem  44.6rem 13.5rem 44.6rem;
+
   }
 
-  .get-started-section {
-    padding: 6rem 44rem;
+  .first-top{
+    width: 26.3rem;
+    height: 35rem;
+  }
+  .first-top img{
+    width:100%;
+    
+  }
+  .second-bottom{
+    width: 35rem;
+    height: 35rem;
+  }
+  .second-bottom img{
+    width: 100%
   }
 
   .get-started-info h2 {
