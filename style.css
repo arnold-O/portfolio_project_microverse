@@ -1366,11 +1366,11 @@ body {
   .get-started-info h2 {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 400;
-    font-size: 8rem;
-    line-height: 100%;
+    font-weight: 500;
+    font-size: 10rem;
+    /* line-height: 100%; */
     color: #1a2236;
-    text-align: center;
+    white-space: nowrap;
   }
 
   .get-started-text {
