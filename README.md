@@ -96,7 +96,7 @@ To run the project, execute the following command:
 
 No Live Demo for this project yet
 
-- [Live Demo Link](https://arnold-o.github.io/microverse_portfolio/)
+- [Live Demo Link](https://arnold-o.github.io/portfolio_project_microverse/)
 
 
 ### Deployment
