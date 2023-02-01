@@ -23,6 +23,55 @@ body {
   --font-family-primary: "Poppins";
 }
 
+
+/* mobile hamburger functionality */
+
+.sidebar-toggle { 
+  height:100vh;
+  width:100vw;
+  background:#fff;
+  opacity:.5;
+ 
+}
+.sidebar-toggle:hover {
+ 
+}
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.sidebar-toggle-links{
+  
+   list-style-type: none;
+}
+.sidebar-toggle-links li a{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 300%;
+color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* mobile hamburger functionality */
+
+
+
+
+
 /* PADDING AND MARGIN SECTION */
 .margin-form-mobile {
   margin-top: 0.8rem;
