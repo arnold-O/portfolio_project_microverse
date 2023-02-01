@@ -25,16 +25,62 @@ body {
 
 
 /* mobile hamburger functionality */
+.sidebar-bg-image{
+  display: flex;
+  justify-content: space-between;
+}
+  .sidebar-img-left{
+    width: 26.4rem;
+    
+    
+  }
+  .sidebar-close-btn{
+    padding: 2.4rem 2rem 0  0;
+    cursor: pointer;
+  }
+  .sidebar-close-btn img{
+    width: 2.5rem;
+    height: 2rem;
+  }
+  .sidebar-img-left img{
+    width: 100%;
+    
+    
+  }
+
+.header-menu-container{
+  position: relative;
+}
 
 .sidebar-toggle { 
-  height:100vh;
+  /* height:100vh; */
   width:100vw;
-  background:#fff;
-  opacity:.5;
+  background:rgba(255, 255, 255, 1);
+  position: absolute;
+ 
+ 
+}
+.toggler-bottom-img{
+  margin-top: 8.2rem;
+  height: 20rem;
+  
+}
+.toggler-bottom-img img{
+  width: 100%;
+ 
  
 }
 .sidebar-toggle:hover {
+
  
+}
+.sidebar-toggle-links{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  left: 50%;
+  text-align: center;
+  margin-top: 4rem;
 }
 @keyframes bounce {
   0% {
@@ -60,10 +106,14 @@ font-weight: 400;
 font-size: 1.8rem;
 line-height: 300%;
 color: #000000;
+cursor: pointer;
 }
 
 a {
   text-decoration: none;
+}
+.toggleBtn{
+  display: none;
 }
 
 /* mobile hamburger functionality */
@@ -182,6 +232,7 @@ a {
 .nav-hamburger {
   justify-self: flex-end;
   margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 .btn {
