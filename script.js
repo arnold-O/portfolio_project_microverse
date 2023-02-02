@@ -12,6 +12,8 @@ toggleBtn.addEventListener('click', function (e) {
 
   if (overlay.classList.contains('toggleBtn')) {
     overlay.classList.remove('toggleBtn');
+    document.body.classList.add('open-modal-overflow');
+    
   } else {
     overlay.classList.add('toggleBtn');
   }
@@ -22,6 +24,7 @@ closeBtn.addEventListener('click', function (e) {
   e.preventDefault();
   if (!overlay.classList.contains('toggleBtn')) {
     overlay.classList.add('toggleBtn');
+    document.body.classList.remove('open-modal-overflow');
   }
 });
 
@@ -30,6 +33,7 @@ links.forEach((item) => {
   item.addEventListener('click', function () {
     if (!overlay.classList.contains('toggleBtn')) {
       overlay.classList.add('toggleBtn');
+      document.body.classList.remove('open-modal-overflow');
     }
   });
 });

@@ -16,7 +16,7 @@ body {
   color: #555;
 }
 
-body.open-modal {
+.open-modal-overflow{
   height: 100vh;
   overflow: hidden;
 }
@@ -68,6 +68,8 @@ body.open-modal {
 .toggler-bottom-img{
   margin-top: 8.2rem;
   height: 20rem;
+  position: absolute;
+  bottom: 0;
   
 }
 .toggler-bottom-img img{
@@ -97,7 +99,7 @@ body.open-modal {
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
-font-size: 2rem;
+font-size: 2.5rem;
 line-height: 300%;
 color: #000000;
 cursor: pointer;
