@@ -16,12 +16,94 @@ body {
   color: #555;
 }
 
+.open-modal-overflow {
+  height: 100vh;
+  overflow: hidden;
+}
+
 :root {
   --color-tint: #fdf2e9;
   --primary-white: #fff;
   --font-family-secondary: "Playfair Display";
   --font-family-primary: "Poppins";
 }
+
+/* mobile hamburger functionality */
+
+.sidebar-bg-image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-img-left {
+  width: 26.4rem;
+}
+
+.sidebar-close-btn {
+  padding: 2.4rem 2rem 0 0;
+  cursor: pointer;
+}
+
+.sidebar-close-btn img {
+  width: 2.5rem;
+  height: 2rem;
+}
+
+.sidebar-img-left img {
+  width: 100%;
+}
+
+.header-menu-container {
+  position: relative;
+}
+
+.sidebar-toggle {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+}
+
+.toggler-bottom-img {
+  margin-top: 8.2rem;
+  height: 20rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.toggler-bottom-img img {
+  width: 100%;
+}
+
+.sidebar-toggle-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  left: 50%;
+  text-align: center;
+  margin-top: 4rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hamburger-links {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 300%;
+  color: #000;
+  cursor: pointer;
+}
+
+.toggleBtn {
+  display: none;
+}
+
+/* mobile hamburger functionality */
 
 /* PADDING AND MARGIN SECTION */
 .margin-form-mobile {
@@ -133,6 +215,7 @@ body {
 .nav-hamburger {
   justify-self: flex-end;
   margin-right: 2.5rem;
+  cursor: pointer;
 }
 
 .btn {
@@ -631,6 +714,10 @@ body {
 
 @media (min-width: 768px) {
   .mobile-nav {
+    display: none;
+  }
+
+  .sidebar-toggle {
     display: none;
   }
 
@@ -1430,5 +1517,9 @@ body {
     display: flex;
     align-items: center;
     gap: 2.9rem;
+  }
+
+  .sidebar-toggle {
+    display: none;
   }
 }

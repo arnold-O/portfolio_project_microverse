@@ -22,13 +22,53 @@
 
 <body>
     <main>
-        <section>
+        <section class="header-menu-container">
+           
+         
+            <aside class="sidebar-toggle toggleBtn">
+                <div class="sidebar-bg-image">
+                    <div class="sidebar-img-left">
+                        <img src="./images/image_geometry_menu_1.png" alt="">
+    
+    
+                    </div>
+    
+                    <div class="sidebar-close-btn">
+                        <img src="./images/Union.png" alt="">
+                    </div>
+    
+                </div>
+                
+                <ul class="sidebar-toggle-links">
+                    <li class="link-sidebar">
+                        <a class="hamburger-links" href="#hello">Hello</a>
+                    </li>
+                    <li class="link-sidebar">
+                        <a class="hamburger-links" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="link-sidebar">
+                        <a class="hamburger-links" href="#about">About</a>
+                    </li>
+                    <li class="link-sidebar">
+                        <a class="hamburger-links" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+
+                <div class="toggler-bottom-img">
+                    <img src="./images/image_geometry_menu_2-1.png" alt="">
+    
+                </div>
+            
+
+            </aside>
+            
             <header class="nav-section grid mobile-nav  grid--2-cols">
 
                 <div class="nav-section-img">
                     <img src="./images/image_geometry_1.png" alt="" />
                 </div>
-                <nav class="nav-hamburger">
+                <nav class="nav-hamburger toggleBtn2">
                     <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
                 </nav>
             </header>
@@ -44,7 +84,7 @@
             </nav>
         </section>
 
-        <section>
+        <section id="hello">
             <div class="header-description margin-md">
                 <h1 class="header-description-name">Arnold Oshos Oghiator </h1>
                 <p class="header-description-text margin-sm">
@@ -85,8 +125,8 @@
         <div class="box-image"></div>
     </section>
 
-    <section class="project-section  margin-md-sm">
-        <div class="mobile-version">
+    <section class="project-section  margin-md-sm" id="portfolio">
+        <div class="mobile-version" >
             <h3 class="project-section-title margin-md-sm-b padding-sm">Projects</h3>
 
             <div class="project-description-container grid">
@@ -279,7 +319,7 @@
             </div>
         </section>
     </section>
-    <section class="about-section margin-lg">
+    <section class="about-section margin-lg" id="about">
         <div class="about-section-description">
             <h3 class="about-section-title ">About</h3>
             <p class="about-text margin-md-sm-b ">
@@ -386,7 +426,7 @@
             </div>
         </div>
     </section>
-    <section class="get-started-section">
+    <section class="get-started-section " id="contact">
         <div class="nav-section-img">
             <img src="./images/image_geometry_1.png" alt="" />
         </div>
@@ -493,6 +533,7 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
