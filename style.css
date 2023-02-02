@@ -16,7 +16,7 @@ body {
   color: #555;
 }
 
-.open-modal-overflow{
+.open-modal-overflow {
   height: 100vh;
   overflow: hidden;
 }
@@ -28,95 +28,82 @@ body {
   --font-family-primary: "Poppins";
 }
 
-
 /* mobile hamburger functionality */
-.sidebar-bg-image{
+
+.sidebar-bg-image {
   display: flex;
   justify-content: space-between;
 }
-  .sidebar-img-left{
-    width: 26.4rem;
-    
-    
-  }
-  .sidebar-close-btn{
-    padding: 2.4rem 2rem 0  0;
-    cursor: pointer;
-  }
-  .sidebar-close-btn img{
-    width: 2.5rem;
-    height: 2rem;
-  }
-  .sidebar-img-left img{
-    width: 100%;
-    
-    
-  }
 
-.header-menu-container{
+.sidebar-img-left {
+  width: 26.4rem;
+}
+
+.sidebar-close-btn {
+  padding: 2.4rem 2rem 0 0;
+  cursor: pointer;
+}
+
+.sidebar-close-btn img {
+  width: 2.5rem;
+  height: 2rem;
+}
+
+.sidebar-img-left img {
+  width: 100%;
+}
+
+.header-menu-container {
   position: relative;
 }
 
-.sidebar-toggle { 
-  height:100vh;
-  width:100vw;
-  background:rgba(255, 255, 255, 1);
+.sidebar-toggle {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(255, 255, 255, 1);
   position: absolute;
- 
- 
 }
-.toggler-bottom-img{
+
+.toggler-bottom-img {
   margin-top: 8.2rem;
   height: 20rem;
   position: absolute;
   bottom: 0;
-  
 }
-.toggler-bottom-img img{
-  width: 100%;
- 
- 
-}
-.sidebar-toggle:hover {
 
- 
+.toggler-bottom-img img {
+  width: 100%;
 }
-.sidebar-toggle-links{
+
+.sidebar-toggle-links {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
   left: 50%;
   text-align: center;
   margin-top: 4rem;
-}
-
-
-.sidebar-toggle-links{
-  
-   list-style-type: none;
-}
-.sidebar-toggle-links li a{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 2.5rem;
-line-height: 300%;
-color: #000000;
-cursor: pointer;
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
 }
-.toggleBtn{
+
+.hamburger-links {
+  font-family: var(--font-family-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 300%;
+  color: #000;
+  cursor: pointer;
+}
+
+.toggleBtn {
   display: none;
 }
 
 /* mobile hamburger functionality */
-
-
-
-
 
 /* PADDING AND MARGIN SECTION */
 .margin-form-mobile {
@@ -729,7 +716,8 @@ a {
   .mobile-nav {
     display: none;
   }
-  .sidebar-toggle{
+
+  .sidebar-toggle {
     display: none;
   }
 
@@ -1530,7 +1518,8 @@ a {
     align-items: center;
     gap: 2.9rem;
   }
-  .sidebar-toggle{
+
+  .sidebar-toggle {
     display: none;
   }
 }
