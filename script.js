@@ -2,9 +2,9 @@ const closeBtn = document.querySelector('.sidebar-close-btn');
 
 const toggleBtn = document.querySelector('.toggleBtn2');
 
-const overlay = document.querySelector(".sidebar-toggle");
+const overlay = document.querySelector('.sidebar-toggle');
 
-const links = document.querySelectorAll(".sidebar-toggle-links li");
+const links = document.querySelectorAll('.sidebar-toggle-links li');
 
 // toggle functionality**** Hamburger
 toggleBtn.addEventListener('click', function (e) {
